@@ -10,7 +10,7 @@ from django.contrib.auth.models import User
 from django.db import models
 from model_utils.models import TimeStampedModel
 from simple_history.models import HistoricalRecords
-
+from solo.models import SingletonModel
 
 LOGGER = getLogger(__name__)
 
@@ -27,6 +27,9 @@ class ExternalIdType(TimeStampedModel):
     name = models.CharField(max_length=32, blank=False, unique=True, db_index=True)
     description = models.TextField()
     history = HistoricalRecords()
+
+    def __str__(self):
+        return self.name
 
 
 class ExternalId(TimeStampedModel):
@@ -97,3 +100,16 @@ class ExternalId(TimeStampedModel):
                 )
             )
         return external_id, created
+
+
+class GenerateExternalIdsConfig(SingletonModel):
+    user_list = models.TextField(
+        blank=True,
+        help_text='List of user IDs separated by a comma to generate ExternalIds for.',
+        default='',
+    )
+    external_id_type = models.ForeignKey(
+        ExternalIdType,
+        null=False,
+        help_text='The type of external ID to generate for the listed users'
+    )

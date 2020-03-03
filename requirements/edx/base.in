@@ -57,6 +57,7 @@ django-require
 django-sekizai
 django-ses
 django-simple-history
+django-solo
 django-splash
 django-statici18n
 django-storages
