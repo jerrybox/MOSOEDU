@@ -62,6 +62,9 @@ from openedx.features.course_experience import UNIFIED_COURSE_TAB_FLAG, SHOW_REV
     </header>
     <div class="page-content">
         <div class="page-content-main">
+            % if next_up_banner_fragment:
+                ${HTML(next_up_banner_fragment.content)}
+            % endif
             % if offer_banner_fragment:
                 ${HTML(offer_banner_fragment.content)}
             % endif
