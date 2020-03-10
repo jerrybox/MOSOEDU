@@ -7,7 +7,6 @@ from django.contrib.admin.sites import AdminSite
 from django.test import TestCase
 from student.tests.factories import UserFactory
 
-from openedx.core.djangoapps.external_user_ids.admin import ExternalIdAdmin
 from openedx.core.djangolib.testing.utils import skip_unless_lms
 
 # external_ids is not in CMS' INSTALLED_APPS so these imports will error during test collection
@@ -16,6 +15,7 @@ if settings.ROOT_URLCONF == 'lms.urls':
         ExternalId,
     )
     from openedx.core.djangoapps.external_user_ids.tests.factories import ExternalIDTypeFactory
+    from openedx.core.djangoapps.external_user_ids.admin import ExternalIdAdmin
 
 
 @skip_unless_lms
