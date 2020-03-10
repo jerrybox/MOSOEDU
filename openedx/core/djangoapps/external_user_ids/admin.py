@@ -121,7 +121,7 @@ class ExternalIdAdmin(admin.ModelAdmin):
                 )
                 return HttpResponseRedirect(redirect_url)
 
-            self.process_generate_ids_request(user_ids, id_type, request, redirect_url)
+            return self.process_generate_ids_request(user_ids, id_type, request, redirect_url)
 
         form = CsvImportForm()
         return self._render_form(request, form)
