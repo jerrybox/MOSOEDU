@@ -69,7 +69,9 @@ def _flatten(iterable):
 
 
 class GradeReportBase(object):
-
+    """
+    Base class for grade reports (ProblemGradeReport and CourseGradeReport).
+    """
     def _handle_empty_generator(self, generator, default):
         """
         Handle empty generator.
@@ -643,7 +645,9 @@ class CourseGradeReport(object):
 
 
 class ProblemGradeReport(GradeReportBase):
-
+    """
+    Class to encapsulate functionality related to generating Problem Grade Reports.
+    """
     @classmethod
     def generate(cls, _xmodule_instance_args, _entry_id, course_id, _task_input, action_name):
         """
