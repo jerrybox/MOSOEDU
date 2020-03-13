@@ -5,12 +5,21 @@ Test cases for catalog_integrations command.
 from django.test import TestCase
 from django.core.management import call_command, CommandError
 
+from edx_django_utils.cache.utils import TieredCache
+
 from openedx.core.djangoapps.catalog.models import CatalogIntegration
 from openedx.core.djangoapps.catalog.tests.mixins import CatalogIntegrationMixin
 
 
 class TestCreateCatalogIntegrations(CatalogIntegrationMixin, TestCase):
     """ Test the create_catalog_integrations command """
+
+    def tearDown(self):
+        """
+        After each test, flush out the cache
+        """
+        super(TestCreateCatalogIntegrations, self).tearDown()
+        TieredCache.delete_all_tiers(CatalogIntegration.cache_key_name())
 
     def test_without_required(self):
         ''' Test that required values are supplied '''
