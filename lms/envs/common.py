@@ -80,7 +80,7 @@ FEATURES = {
 
     # for consistency in user-experience, keep the value of the following 3 settings
     # in sync with the corresponding ones in cms/envs/common.py
-    'ENABLE_DISCUSSION_SERVICE': True,
+    'ENABLE_DISCUSSION_SERVICE': False,
     'ENABLE_TEXTBOOK': True,
     'ENABLE_STUDENT_NOTES': True,  # enables the student notes API and UI.
 
@@ -130,7 +130,7 @@ FEATURES = {
     'ENABLE_CORS_HEADERS': False,
 
     # Can be turned off if course lists need to be hidden. Effects views and templates.
-    'COURSES_ARE_BROWSABLE': True,
+    'COURSES_ARE_BROWSABLE': False,
 
     # Set to hide the courses list on the Learner Dashboard if they are not enrolled in any courses yet.
     'HIDE_DASHBOARD_COURSES_UNTIL_ACTIVATED': False,
@@ -375,7 +375,7 @@ FEATURES = {
     'ENABLE_ONE_CLICK_PROGRAM_PURCHASE': False,
 
     # Allow users to change their email address.
-    'ALLOW_EMAIL_ADDRESS_CHANGE': True,
+    'ALLOW_EMAIL_ADDRESS_CHANGE': False,
 
     # Whether the bulk enrollment view is enabled.
     'ENABLE_BULK_ENROLLMENT_VIEW': False,
