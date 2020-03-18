@@ -116,50 +116,50 @@
     "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s unread comments)%(span_close)s": "%(comments_count)s %(span_sr_open)s comentarios (%(unread_comments_count)s comentarios no le\u00eddos)%(span_close)s", 
     "%(download_link_start)sDownload this image (right-click or option-click, save as)%(link_end)s and then %(upload_link_start)supload%(link_end)s it to your backpack.</li>": "%(download_link_start)sDescarga esta imagen (haz clic derecho o pulsa opci\u00f3n, guardar como)%(link_end)s y despu\u00e9s %(upload_link_start)ssubirla%(link_end)s a tu mochila.</li>", 
     "%(earned)s/%(possible)s point (graded)": [
-      "%(earned)s/%(possible)s punto (calificado)", 
+      "\u5f97\u5206%(earned)s/\u603b\u5206%(possible)s\uff08\u8ba1\u5165\u6210\u7ee9\uff09", 
       "%(earned)s/%(possible)s puntos (calificados)"
     ], 
     "%(earned)s/%(possible)s point (ungraded)": [
-      "%(earned)s/%(possible)s punto (no calificado)", 
+      "%(earned)s/%(possible)s\u5206\uff08\u4e0d\u8ba1\u5206\uff09", 
       "%(earned)s/%(possible)s puntos (no calificados)"
     ], 
     "%(errorCount)s error found in form.": [
-      "%(errorCount)s error en el formulario.", 
+      "\u8868\u683c\u4e2d\u627e\u5230%(errorCount)s\u4e2a\u9519\u8bef\u3002", 
       "%(errorCount)s errores en el formulario."
     ], 
     "%(field)s can only contain up to %(count)d characters.": "%(field)s solo puede contener hasta %(count)d caracteres.", 
     "%(field)s must have at least %(count)d characters.": "%(field)s debe tener al menos %(count)d caracteres.", 
     "%(memberCount)s / %(maxMemberCount)s Member": [
-      "%(memberCount)s / %(maxMemberCount)s Miembro", 
+      "%(memberCount)s / %(maxMemberCount)s\u4e2a\u6210\u5458", 
       "%(memberCount)s / %(maxMemberCount)s Miembros"
     ], 
     "%(new_item_message)s": "%(new_item_message)s", 
     "%(num_points)s point possible (graded)": [
-      "%(num_points)s punto posible (calificado)", 
+      "\u603b\u5171%(num_points)s\u5206\uff08\u8ba1\u5165\u6210\u7ee9\uff09", 
       "%(num_points)s puntos posibles (calificados)"
     ], 
     "%(num_points)s point possible (graded, results hidden)": [
-      "%(num_points)s punto posible (calificables, resultados escondidos)", 
+      "\u603b\u5171%(num_points)s\u5206\uff08\u8ba1\u5165\u6210\u7ee9\uff0c\u9690\u85cf\u7b54\u9898\u7ed3\u679c\uff09", 
       "%(num_points)s puntos posibles (calificables, resultados ocultos)"
     ], 
     "%(num_points)s point possible (ungraded)": [
-      "%(num_points)s punto posible (no calificado)", 
+      "\u603b\u5171%(num_points)s\u5206\uff08\u4e0d\u8ba1\u5165\u6210\u7ee9\uff09", 
       "%(num_points)s puntos posibles (no calificados)"
     ], 
     "%(num_points)s point possible (ungraded, results hidden)": [
-      "%(num_points)s punto posible (calificable, resultados ocultos)", 
+      "\u603b\u5171%(num_points)s\u5206\uff08\u4e0d\u8ba1\u5165\u6210\u7ee9\uff0c\u9690\u85cf\u7ed3\u679c\uff09", 
       "%(num_points)s puntos posibles (no calificables, resultados ocultos)"
     ], 
     "%(num_questions)s question": [
-      "%(num_questions)s pregunta", 
+      "%(num_questions)s\u4e2a\u95ee\u9898", 
       "%(num_questions)s preguntas"
     ], 
     "%(num_students)s student": [
-      "%(num_students)s estudiante", 
+      "%(num_students)s\u540d\u5b66\u751f", 
       "%(num_students)s estudiantes"
     ], 
     "%(num_students)s student opened Subsection": [
-      "%(num_students)s estudiante abri\u00f3 la subsecci\u00f3n", 
+      "%(num_students)s\u540d\u5b66\u751f\u5df2\u6253\u5f00\u8282", 
       "%(num_students)s estudiantes abrieron la subsecci\u00f3n"
     ], 
     "%(programName)s Home Page.": "P\u00e1gina de inicio de %(programName)s.", 
@@ -168,36 +168,36 @@
       "%(sel)s de  %(cnt)s seleccionados"
     ], 
     "%(team_count)s Team": [
-      "%(team_count)s Equipo", 
+      "%(team_count)s\u4e2a\u56e2\u961f", 
       "%(team_count)s Equipos"
     ], 
     "%(type)s Component Template Menu": "Plantilla de men\u00fa de componentes %(type)s", 
     "%(value)s hour": [
-      "%(value)s hora", 
+      "%(value)s\u4e2a\u5c0f\u65f6", 
       "%(value)s horas"
     ], 
     "%(value)s minute": [
-      "%(value)s minuto", 
+      "%(value)s\u5206\u949f", 
       "%(value)s minutos"
     ], 
     "%(value)s second": [
-      "%(value)s segundo", 
+      "%(value)s\u79d2", 
       "%(value)s segundos"
     ], 
     "%d day": [
-      "%d d\u00eda", 
+      "%d\u5929", 
       "%d d\u00edas"
     ], 
     "%d minute": [
-      "%d minuto", 
+      "%d\u5206\u949f", 
       "%d minutos"
     ], 
     "%d month": [
-      "%d mes", 
+      "%d\u4e2a\u6708", 
       "%d meses"
     ], 
     "%d year": [
-      "%d a\u00f1o", 
+      "%d\u5e74", 
       "%d a\u00f1os"
     ], 
     "%s ago": "hace %s", 
@@ -206,6 +206,7 @@
     "(Caption will be displayed when you start playing the video.)": "(Los subt\u00edtulos ser\u00e1n mostrados al iniciar la reproducci\u00f3n del video.)", 
     "(Community TA)": "(Profesor asistente de la comunidad)", 
     "(Optional)": "(Opcional)", 
+    "(Read-only)": "(\u53ea\u8bfb)", 
     "(Required Field)": "(Campo requerido)", 
     "(Self-paced) Ended {end}": "(A ritmo propio) Terminado {end}", 
     "(Self-paced) Ends {end}": "(A ritmo propio)Termina{end}", 
@@ -213,7 +214,7 @@
     "(Self-paced) Starts {start}": "(A su propio ritmo) Empieza {start}", 
     "(Staff)": "(Equipo)", 
     "(contains %(student_count)s student)": [
-      "(contiene %(student_count)s estudiante)", 
+      "\uff08\u5305\u542b%(student_count)s\u4f4d\u5b66\u751f\uff09", 
       "(contiene %(student_count)s estudiantes)"
     ], 
     "(optional)": "(opcional)", 
@@ -316,6 +317,7 @@
     "All Unreviewed": "Todos los no revisados", 
     "All Unreviewed Failures": "Todos los fracasos no revisados", 
     "All accounts were created successfully.": "Todas las cuentas fueron creadas exitosamente.", 
+    "All chapters must have a name and asset": "\u6240\u6709\u7ae0\u8282\u90fd\u5fc5\u987b\u8d77\u540d\u5e76\u6709\u8d44\u6e90", 
     "All flags have been removed. To undo, uncheck the box.": "Todas las marcas han sido eliminadas.  Para deshacer, desmarca la casilla.", 
     "All groups must have a name.": "Todos los grupos deben tener nombre.", 
     "All groups must have a unique name.": "Todos los equipos deben tener un nombre \u00fanico.", 
@@ -449,6 +451,7 @@
     "Cancel enrollment code": "Cancelar c\u00f3digo de inscripci\u00f3n", 
     "Cancel team creating.": "Cancelar la creaci\u00f3n del equipo.", 
     "Cancel team updating.": "Cancelar la actualizaci\u00f3n", 
+    "Cancel upload": "\u53d6\u6d88\u4e0a\u4f20", 
     "Cannot Start Proctored Exam": "No se puede Iniciar el Examen Supervisado", 
     "Cannot delete when in use by a unit": "No puede borrar cuando esta en uso por una unidad", 
     "Cannot delete when in use by an experiment": "No se puede borrar mientras est\u00e9 en uso por un experimento", 
@@ -484,14 +487,16 @@
     "Chapter Asset": "Recursos del cap\u00edtulo", 
     "Chapter Name": "Nombre del cap\u00edtulo", 
     "Chapter information": "Informaci\u00f3n del cap\u00edtulo", 
+    "Chapter name and asset_path are both required": "\u7ae0\u8282\u540d\u548casset_path\u90fd\u5fc5\u586b", 
+    "Chapter name is required": "\u7ae0\u8282\u540d\u79f0\u5fc5\u586b", 
     "Chapter {order}": "Cap\u00edtulo {order}", 
     "Check Your Email": "Revise tu correo electr\u00f3nico", 
     "Check the box to remove %(count)s flag.": [
-      "Marque la casilla para eliminar %(count)s marca.", 
+      "\u9009\u4e2d\u65b9\u6846\u79fb\u9664 %(count)s \u4e2a\u6807\u8bb0\u3002", 
       "Marca la casilla para eliminar %(count)s marcas."
     ], 
     "Check the box to remove %(totalFlags)s flag.": [
-      "Marque la casilla para eliminar %(totalFlags)s marca.", 
+      "\u52fe\u9009\u65b9\u6846\u79fb\u9664\u5168\u90e8%(totalFlags)s\u4e2a\u6807\u8bb0\u3002", 
       "Marca la casilla para eliminar %(totalFlags)s marcas."
     ], 
     "Check the box to remove all flags.": "Marca la casilla para eliminar todas las marcas.", 
@@ -514,6 +519,7 @@
     "Choose a time": "Elija una hora", 
     "Choose all": "Selecciona todos", 
     "Choose mode": "Elegir modo", 
+    "Choose new file": "\u9009\u62e9\u6587\u4ef6", 
     "Choose one": "Elegir uno", 
     "Choose your institution from the list below:": "Elija su instituci\u00f3n:", 
     "Chosen %s": "%s elegidos", 
@@ -564,6 +570,7 @@
     "Components": "Componentes", 
     "Configure": "Configurar", 
     "Confirm": "Confirmar", 
+    "Confirm Password": "\u786e\u8ba4\u5bc6\u7801", 
     "Confirm Timed Transcript": "Confirmar la transcripci\u00f3n", 
     "Congratulations!": "\u00a1Felicitaciones!", 
     "Congratulations! You are now verified on %(platformName)s!": "Felicitaciones! Ya se encuentra verificado en %(platformName)s!", 
@@ -571,7 +578,7 @@
     "Contact Us": "Contacta con nosotros", 
     "Contains staff only content": "Contiene solo contenido del equipo del curso", 
     "Contains {count} group": [
-      "Contiene {count} grupo", 
+      "\u5305\u542b{count}\u4e2a\u5206\u7ec4", 
       "Contiene {count} grupos"
     ], 
     "Content Group ID": "ID de Contenido de Grupo", 
@@ -605,7 +612,7 @@
     "Country of residence": "Pa\u00eds de residencia", 
     "Country or Region of Residence": "Pa\u00eds o regi\u00f3n de residencia", 
     "Course": [
-      "Curso", 
+      "\u8bfe\u7a0b", 
       "Cursos"
     ], 
     "Course Credit Requirements": "Requerimientos de cr\u00e9ditos para el curso", 
@@ -618,7 +625,9 @@
     "Course Name": "Nombre del curso", 
     "Course Number": "C\u00f3digo del curso", 
     "Course Number Override": "Reemplazo para el n\u00famero de curso", 
+    "Course Number:": "\u8bfe\u7a0b\u4ee3\u7801\uff1a", 
     "Course Outline": "Estructura del curso", 
+    "Course Run:": "\u5f00\u8bfe\u65f6\u95f4", 
     "Course Start": "Inicio del Curso", 
     "Course Title": "T\u00edtulo del curso", 
     "Course Title Override": "Reemplazo para el t\u00edtulo del curso", 
@@ -638,6 +647,7 @@
     "Create an Account": "Crear una cuenta", 
     "Create an Account.": "Crear una cuenta.", 
     "Create an account using": "Crear una cuenta usando", 
+    "Create an {platform} account": "\u521b\u5efa{platform}\u8d26\u53f7", 
     "Create team.": "Crear el equipo.", 
     "Created": "Creado", 
     "Creating missing groups": "Agregar los grupos faltantes", 
@@ -685,8 +695,10 @@
     "Delete this team?": "\u00bfBorrar este equipo?", 
     "Delete this {xblock_type} (and prerequisite)?": "\u00bfEliminar este {xblock_type} (y prerrequisitos)?", 
     "Delete this {xblock_type}?": "\u00bfEliminar este {xblock_type}?", 
+    "Delete \u201c<%= name %>\u201d?": "\u5220\u9664\u201c<%= name %>\u201d\uff1f", 
     "Deleted Content Group": "Contenido de grupo eliminado", 
     "Deleted Group": "Grupo eliminado", 
+    "Deleting": "\u5220\u9664\u4e2d", 
     "Deleting a team is permanent and cannot be undone. All members are removed from the team, and team discussions can no longer be accessed.": "El borrar un equipo es una acci\u00f3n permanente y no puede ser reversada. Todos los miembros ser\u00e1n removidos del equipo y las discusiones no podr\u00e1n volver a ser accesadas.", 
     "Deleting a textbook cannot be undone and once deleted any reference to it in your courseware's navigation will also be removed.": "El borrado de un Libro de texto no se puede deshacer y una vez borrado, cualquier referencia al mismo en la navegaci\u00f3n del curso ser\u00e1 eliminada.", 
     "Deleting this %(item_display_name)s is permanent and cannot be undone.": "Eliminar %(item_display_name)s is permanente y no puede deshacerse", 
@@ -797,6 +809,7 @@
     "Enter a student's username or email address.": "Ingresa un nombre de usuario o email de estudiante.", 
     "Enter a subject for your support request.": "Introduzca el tema de tu mensaje al equipo de soporte.", 
     "Enter a username or email.": "Ingresa el nombre de usuario o el correo electr\u00f3nico.", 
+    "Enter and confirm your new password.": "\u8f93\u5165\u5e76\u786e\u8ba4\u4f60\u7684\u65b0\u5bc6\u7801\u3002", 
     "Enter email addresses and/or usernames, separated by new lines or commas, for the learners you want to add. *": "Ingrese los correos electr\u00f3nicos y/o nombres de usuarios, separados por comas o en l\u00edneas nuevas, uno debajo del otro, de los estudiantes que quiera agregar.*", 
     "Enter information to describe your team. You cannot change these details after you create the team.": "Ingrese la descripci\u00f3n de su equipo. No podr\u00e1 cambiar esta informaci\u00f3n despu\u00e9s de crear el equipo.", 
     "Enter some details for your support request.": "Describe los detalles de tu solicitud de ayuda.", 
@@ -832,6 +845,7 @@
     "Error getting student progress url for '<%- student_id %>'. Make sure that the student identifier is spelled correctly.": "Error al obtener la url de progreso del estudiante '<%- student_id %>'. Aseg\u00farate de que el identificador del estudiante est\u00e9 escrito correctamente.", 
     "Error getting task history for problem '<%- problem_id %>' and student '<%- student_id %>'. Make sure that the problem and student identifiers are complete and correct.": "Error al obtener el historial de tareas para el problema '<%- problem_id %>' y el estudiante '<%- student_id %>'.  Verifica que el problema y el estudiante est\u00e9n identificados correctamente.", 
     "Error getting the number of ungraded responses": "Error al obtener el n\u00famero de respuestas no calificadas.", 
+    "Error importing course": "\u5bfc\u5165\u8bfe\u7a0b\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u9519\u8bef", 
     "Error listing task history for this student and problem.": "Error listando el historial de tareas para este estudiante y problema.", 
     "Error posting your message.": "Error al publicar su mensaje.", 
     "Error removing user": "Error al remover el usuario.", 
@@ -878,6 +892,7 @@
     "Feedback available for selection.": "Comentarios disponibles para esta selecci\u00f3n.", 
     "File": "Archivo", 
     "File Name": "Nombre de archivo", 
+    "File format not supported. Please upload a file with a {ext} extension.": "\u4e0d\u652f\u6301\u7684\u6587\u4ef6\u683c\u5f0f\uff0c\u8bf7\u4e0a\u4f20\u6269\u5c55\u540d\u4e3a\"{ext}\"\u7684\u6587\u4ef6\u3002", 
     "File size must be 10MB or less.": "Tama\u00f1o del archivo debe ser de 10MB como m\u00e1ximo.", 
     "File type is not allowed.": "Tipo de archivo no permitido.", 
     "File types can not be empty.": "Tipo de archivo no puede ser vac\u00edo.", 
@@ -1003,6 +1018,7 @@
     "If the subsection does not have a due date, learners always see their scores when they submit answers to assessments.": "Si la subsecci\u00f3n no tiene fecha de caducidad, los estudiantes siempre pueden ver sus puntajes cuando env\u00edan las respuestas a la evaluaci\u00f3n.", 
     "If the unit was previously published and released to learners, any changes you made to the unit when it was hidden will now be visible to learners.": "Si la unidad fue publicada anteriormente y liberada a los estudiantes, cualquier cambio que haya realizado cuando estaba oculta ser\u00e1 ahora visible para los estudiantes.", 
     "If the unit was previously published and released to students, any changes you made to the unit when it was hidden will now be visible to students. Do you want to proceed?": "Si la unidad fue publicada anteriormente y liberada a los estudiantes, cualquier cambio que realice cuando estaba oculta ser\u00e1 ahora visible para los estudiantes. \u00bfdesea proceder?", 
+    "If you are unable to access your account contact us via email using {email}.": "\u5982\u679c\u60a8\u65e0\u6cd5\u8bbf\u95ee\u8d26\u53f7\uff0c\u8bf7\u901a\u8fc7\u7535\u5b50\u90ae\u4ef6\u8054\u7cfb\u6211\u4eec{email}\u3002", 
     "If you do not yet have an account, use the button below to register.": "Si todav\u00eda no tienes una cuenta, puedes utilizar el bot\u00f3n abajo para registrarte ", 
     "If you don't verify your identity now, you can still explore your course from your dashboard. You will receive periodic reminders from %(platformName)s to verify your identity.": "Si no verifica su identidad ahora, de todas formas podr\u00e1 explorar el curso desde su Panel de Control. Recibir\u00e1 recordatorios peri\u00f3dicos de %(platformName)s para realizar la verificaci\u00f3n de identidad.", 
     "If you don't verify your identity now, you can still explore your course from your dashboard. You will receive periodic reminders from {platformName} to verify your identity.": "Si no verifica su identidad ahora, de todas formas podr\u00e1 explorar el curso desde su Panel de Control. Recibir\u00e1 recordatorios peri\u00f3dicos de {platformName} para realizar la verificaci\u00f3n de identidad.", 
@@ -1013,6 +1029,7 @@
     "If you leave, you can no longer post in this team's discussions. Your place will be available to another learner.": "Si abandonas este equipo, no podr\u00e1s escribir en las discusiones de este equipo. Tu lugar estar\u00e1 disponible para otro estudiante.", 
     "If you make significant changes, make sure you notify members of the team before making these changes.": "Si haces cambios significativos,  aseg\u00farate de avisarle a los miembros del equipos antes de realizar estos cambios.", 
     "If you make this %(xblockType)s visible to learners, learners will be able to see its content after the release date has passed and you have published the unit. Only units that are explicitly hidden from learners will remain hidden after you clear this option for the %(xblockType)s.": "Si hace este %(xblockType)s visible a los estudiantes, podr\u00e1n ver su contenido a partir de la fecha de liberaci\u00f3n siempre que haya publicado la unidad. S\u00f3lo las unidades que est\u00e1n ocultos expl\u00edcitamente permanecer\u00e1n ocultas despu\u00e9s de quitar esta opci\u00f3n para %(xblockType)s.", 
+    "If you proceed, you will be unable to use this account to take courses on the edX app, edx.org, or any other site hosted by edX. This includes access to edx.org from your employer\u2019s or university\u2019s system and access to private sites offered by MIT Open Learning, Wharton Executive Education, and Harvard Medical School.": "\u5982\u679c\u60a8\u7ee7\u7eed\u6b64\u64cd\u4f5c\uff0c\u90a3\u4e48\u60a8\u5c06\u65e0\u6cd5\u5728edX App\u3001edx.org\u6216\u5176\u4ed6\u4efb\u4f55\u7531edX\u6258\u7ba1\u7684\u7ad9\u70b9\u4e0a\u5b66\u4e60\u8bfe\u7a0b\uff0c\u5305\u62ec\u65e0\u6cd5\u4ece\u60a8\u516c\u53f8\u6216\u5927\u5b66\u7684\u7cfb\u7edf\u8bbf\u95eeedx.org\uff0c\u4ee5\u53ca\u65e0\u6cd5\u8bbf\u95ee\u9ebb\u7701\u7406\u5de5\u5b66\u9662\u5f00\u653e\u5b66\u4e60\u3001\u6c83\u987f\u5546\u5b66\u9662\u548c\u54c8\u4f5b\u533b\u5b66\u9662\u63d0\u4f9b\u7684\u79c1\u4eba\u7f51\u7ad9\u3002", 
     "If you remove this transcript, the transcript will not be available for any components that use this video.": "Si elimina esta transcripci\u00f3n, la transcripci\u00f3n no estar\u00e1 disponible para ning\u00fan componente que use este v\u00eddeo.", 
     "If you remove this transcript, the transcript will not be available for this component.": "Si elimina esta transcripci\u00f3n, la transcripci\u00f3n no estar\u00e1 disponible para este componente.", 
     "If you select an option other than \"%(hide_label)s\", published units in this subsection become available to learners unless they are explicitly hidden.": "Si selecciona esta opci\u00f3n distinta a \"%(hide_label)s\", \nlas unidades publicadas en este subsecci\u00f3n pasar\u00e1n a estar disponible para los estudiantes a menos que est\u00e1n expl\u00edcitamente ocultas.", 
@@ -1137,7 +1154,7 @@
     "Load more": "Cargar m\u00e1s", 
     "Load next {numResponses} responses": "Cargar las siguientes {numResponses} respuestas", 
     "Load next {num_items} result": [
-      "Cargar el siguiente {num_items} resultado", 
+      "\u7ee7\u7eed\u52a0\u8f7d{num_items}\u4e2a\u7ed3\u679c", 
       "Cargar los siguientes {num_items} resultados"
     ], 
     "Loading": "Cargando", 
@@ -1180,6 +1197,7 @@
     "Message:": "Mensaje:", 
     "Middle": "Educaci\u00f3n media", 
     "Midnight": "Medianoche", 
+    "Minimum Completion:": "\u6700\u4f4e\u5b8c\u6210\u7387\uff1a", 
     "Minimum Score:": "Nota m\u00ednima", 
     "Module state successfully deleted.": "Estado del m\u00f3dulo borrado exit\u00f3samente.", 
     "More": "M\u00e1s", 
@@ -1281,6 +1299,7 @@
     "Once in position, use the camera button {icon} to capture your photo": "Una vez en posici\u00f3n, usa el siguiente \u00edcono {icon} para capturar tu foto", 
     "Once your account is deleted, you cannot use it to take courses on the edX app, edx.org, or any other site hosted by edX. This includes access to edx.org from your employer\u2019s or university\u2019s system and access to private sites offered by MIT Open Learning, Wharton Executive Education, and Harvard Medical School.": "Una vez tu cuenta haya sido eliminada, no la podr\u00e1s usar para tomar cursos en la app de edX, edx.org o en cualquier otro sitio administrado por edX. Esto incluye el acceso a edx.org desde el sistema de tu empleador o de tu universidad y el acceso a p\u00e1ginas privadas ofrecidas por MIT Open Learning, Wharton Online y Harvard Medical School.", 
     "One or more rescheduling tasks failed.": "Una o m\u00e1s tareas de re-programaci\u00f3n fall\u00f3.", 
+    "Only <%= fileTypes %> files can be uploaded. Please select a file ending in <%= fileExtensions %> to upload.": "\u53ea\u6709 <%= fileTypes %> \u683c\u5f0f\u7684\u6587\u4ef6\u53ef\u4ee5\u4e0a\u4f20\u3002\u8bf7\u9009\u62e9\u4e00\u4e2a\u4ee5 <%= fileExtensions %> \u7ed3\u5c3e\u7684\u6587\u4ef6\u4e0a\u4f20\u3002", 
     "Only properly formatted .csv files will be accepted.": "Solo archivos .csv correctamente formateados pueden ser utilizados.", 
     "Only the parent course staff of a CCX can create content groups.": "S\u00f3lo el personal del curso principal de un CCX puede crear grupos de contenido.", 
     "Open": "Abrir", 
@@ -1302,6 +1321,7 @@
     "Organization ": "Organizaci\u00f3n", 
     "Organization Name": "Nombre de la organizaci\u00f3n", 
     "Organization of the signatory": "Organizaci\u00f3n del signatario", 
+    "Organization:": "\u673a\u6784\uff1a", 
     "Other": "Otro", 
     "Overall Score": "Puntaje general", 
     "Page break": "Salto de p\u00e1gina", 
@@ -1313,6 +1333,7 @@
     "Password Status": "Estado de la Contrase\u00f1a", 
     "Password assistance": "Ayuda con la contrase\u00f1a", 
     "Password is incorrect": "Contrase\u00f1a incorrecta", 
+    "Passwords do not match.": "\u5bc6\u7801\u4e0d\u4e00\u81f4\u3002", 
     "Paste": "Pegar", 
     "Paste as text": "Pegar como texto", 
     "Paste is now in plain text mode. Contents will now be pasted as plain text until you toggle this option off.": "La funci\u00f3n pegar est\u00e1 en modo de texto. Los contenidos se pegar\u00e1n como texto plano hasta que se desactive esta opci\u00f3n.", 
@@ -1338,6 +1359,7 @@
     "Play video": "Reproducir video", 
     "Please Note": "Por favor tener en cuenta", 
     "Please add a photo of the instructor (Note: only JPEG or PNG format supported)": "Por favor proporcione una foto del instructor. (Nota: s\u00f3lo se admite formato JPEG o PNG)", 
+    "Please add at least one chapter": "\u81f3\u5c11\u6dfb\u52a0\u4e00\u4e2a\u7ae0\u8282", 
     "Please add the institute where the instructor is associated": "Ingrese la instituci\u00f3n con la que el instructor est\u00e1 asociado", 
     "Please add the instructor's biography": "Por favor ingrese la biograf\u00eda del instructor", 
     "Please add the instructor's name": "Ingrese el nombre del instructor", 
@@ -1368,6 +1390,7 @@
     "Please provide a description of the link destination.": "Por favor, provee una descripci\u00f3n de la destinaci\u00f3n del v\u00ednculo.", 
     "Please provide a valid URL.": "Por favor, provee un URL v\u00e1lido.", 
     "Please re-enter your password.": "Por favor, introduce tu contrase\u00f1a nuevamente.", 
+    "Please select a PDF file to upload.": "\u8bf7\u9009\u62e9\u4e0a\u4f20\u4e00\u4e2aPDF\u6587\u4ef6\u3002", 
     "Please select a file in .srt format.": "Por favor seleccione un archivo en formato .srt", 
     "Please specify a reason.": "Por favor especifica una raz\u00f3n.", 
     "Please verify that you have uploaded a valid image (PNG and JPEG).": "Por favor verifica que hayas cargado una imagen v\u00e1lida (PNG y JPEG)", 
@@ -1436,6 +1459,7 @@
     "Questions raise issues that need answers. Discussions share ideas and start conversations. (Required)": "Utilice pregunta para plantear t\u00f3picos que necesitan respuestas. Utilice Discusi\u00f3n para compartir sus ideas y comenzar conversaciones. (Requerido)", 
     "Queued": "En cola", 
     "REMAINING COURSES": "CURSOS RESTANTES", 
+    "Re-run Course": "\u91cd\u542f\u8bfe\u7a0b", 
     "Read More": "Leer mas", 
     "Read more": "Leer m\u00e1s", 
     "Ready To Start": "Listo para comenzar", 
@@ -1467,6 +1491,7 @@
     "Remove Transcript": "Eliminar Transcripci\u00f3n.", 
     "Remove all": "Eliminar todos", 
     "Remove chapter %(chapterDisplayName)s": "Borrar Cap\u00edtulo %(chapterDisplayName)s", 
+    "Remove file": "\u79fb\u9664\u6587\u4ef6", 
     "Remove from Invalidation Table": "Remover de la tabla de invalidaciones", 
     "Remove from List": "Remover de la lista", 
     "Remove link": "Remover el v\u00ednculo", 
@@ -1492,6 +1517,7 @@
     "Required": "Requerido", 
     "Required field.": "Campo requerido.", 
     "Rescore problem '<%- problem_id %>' for all students?": "\u00bfRe puntuar el problema '<%- problem_id %>' para todos los estudiantes?", 
+    "Reset My Password": "\u91cd\u7f6e\u6211\u7684\u5bc6\u7801", 
     "Reset Password": "Restablecer Contrase\u00f1a", 
     "Reset Your Password": "Restablecer tu contrase\u00f1a", 
     "Reset attempts for all students on problem '<%- problem_id %>'?": "\u00bfReiniciar los env\u00edos para todos los estudiantes en el problema '<%- problem_id %>'?", 
@@ -1535,6 +1561,7 @@
     "Search Results": "Resultados de b\u00fasqueda", 
     "Search all posts": "Buscar en todo", 
     "Search teams": "Buscar equipos", 
+    "Search the {platform} Help Center": "\u5728{platform}\u7684\u5e2e\u52a9\u4e2d\u5fc3\u5bfb\u6c42\u5e2e\u52a9", 
     "Second Review Required": "Segunda revisi\u00f3n requerida", 
     "Section": "Secci\u00f3n", 
     "Section Highlights": "Destacados de la secci\u00f3n", 
@@ -1548,6 +1575,7 @@
     "Select a cohort to manage": "Seleccione la cohorte a gestionar", 
     "Select a course or select \"Not specific to a course\" for your support request.": "Seleccione un curso o seleccione \"No espec\u00edfico para un curso\" para su solicitud de soporte.", 
     "Select a group type": "Seleccione un tipo de grupo", 
+    "Select a prerequisite subsection and enter a minimum score percentage and minimum completion percentage to limit access to this subsection. Allowed values are 0-100": "\u8981\u60f3\u8bbe\u7f6e\u6b64\u8282\u7684\u62a5\u8bfb\u95e8\u69db\uff0c\u8bf7\u9009\u62e9\u4e00\u4e2a\u5148\u4fee\u8282\uff0c\u5e76\u8f93\u5165\u4e00\u4e2a\u6700\u5c0f\u5206\u6570\u767e\u5206\u6bd4\u548c\u6700\u4f4e\u5b8c\u6210\u7387\u3002\u53ef\u8f93\u5165\u503c\uff1a0-100", 
     "Select a session:": "Selecciona una edici\u00f3n:", 
     "Select a time allotment for the exam. If it is over 24 hours, type in the amount of time. You can grant individual learners extra time to complete the exam through the Instructor Dashboard.": "Seleccione un tiempo disponible para el examen. Si es mayor a 24 horas, escriba la cantidad de tiempo. Puede otorgar a estudiantes individuales un tiempo extra para completar el examen a trav\u00e9s del panel de control de instructor.", 
     "Select all": "Selecionar todo", 
@@ -1585,7 +1613,7 @@
     "Show All": "Mostrar todo", 
     "Show Annotations": "Mostrar anotaciones", 
     "Show Comment (%(num_comments)s)": [
-      "Mostrar comentario (%(num_comments)s)", 
+      "\u663e\u793a\u8bc4\u8bba\uff08%(num_comments)s\uff09", 
       "Mostrar comentarios (%(num_comments)s)"
     ], 
     "Show Deprecated Settings": "Mostrar configuraciones descartadas", 
@@ -1602,7 +1630,7 @@
     "Show transcripts ({transcriptCount})": "Mostrar transcripciones ({transcriptCount})", 
     "Showing all responses": "Mostrando todas las respuestas", 
     "Showing first response": [
-      "Mostrando la primera respuesta", 
+      "\u524d{numResponses}\u6761\u56de\u590d", 
       "Mostrando las primeras {numResponses} respuestas"
     ], 
     "Showing results for \"{searchString}\"": "Mostrando resultados para \"{searchString}\"", 
@@ -1677,6 +1705,7 @@
     "Student email or username": "Correo electr\u00f3nico o nombre de usuario del estudiante", 
     "Student username/email field is required and can not be empty. Kindly fill in username/email and then press \"Add to Exception List\" button.": "El campo de nombre de usuario /correo de estudiante es requerido y no puede estar vac\u00edo. Por favor completa este campo y luego presiona el bot\u00f3n de \"A\u00f1adir a la lista de excepciones\".", 
     "Student username/email field is required and can not be empty. Kindly fill in username/email and then press \"Invalidate Certificate\" button.": "El campo de nombre de usuario /correo de estudiante es requerido y no puede estar vac\u00edo. Por favor completa este campo y luego presiona el bot\u00f3n de \"Invalidar certificado\".", 
+    "Studio's having trouble saving your work": "\u4fdd\u5b58\u65f6\u9047\u5230\u95ee\u9898", 
     "Studio:": "Studio:", 
     "Style": "Estilo", 
     "Subject": "Asunto", 
@@ -1753,8 +1782,10 @@
     "Text to display": "Texto para desplegar", 
     "Textbook Name": "Nombre", 
     "Textbook information": "Informaci\u00f3n del libro de texto", 
+    "Textbook name is required": "\u6559\u79d1\u4e66\u540d\u5fc5\u586b", 
     "Thank you %(full_name)s! We have received your payment for %(course_name)s.": "Gracias %(full_name)s! Hemos recibido su pago para el curso %(course_name)s.", 
     "Thank you for setting your course goal to {goal}!": "\u00a1 Gracias por establecer su objetivo para este curso en {goal}!", 
+    "Thank you for submitting a request! We will contact you within 24 hours.": "\u611f\u8c22\u60a8\u63d0\u4ea4\u7684\u7533\u8bf7\uff01\u6211\u4eec\u4f1a\u572824\u5c0f\u65f6\u5185\u8054\u7cfb\u60a8\u3002", 
     "Thank you for submitting your financial assistance application for {course_name}! You can expect a response in 2-4 business days.": "Gracias por enviar tu aplicaci\u00f3n de financiamiento para {course_name}!. Espera una respuesta de 2-4 dias h\u00e1biles.", 
     "Thank you for submitting your photos. We will review them shortly. You can now sign up for any %(platformName)s course that offers verified certificates. Verification is good for one year. After one year, you must submit photos for verification again.": "Gracias por enviar sus fotos. Las revisaremos pronto. Ahora puede registrarse para cualquier curso de %(platformName)s que ofrezca Certficados Verificados. La verificaci\u00f3n es v\u00e1lida por un a\u00f1o. Despu\u00e9s de este periodo, deber\u00e1 volver a enviar fotograf\u00edas para una nueva verificaci\u00f3n.", 
     "Thank you! We have received your payment for {courseName}.": "\u00a1Gracias! Hemos recibido tu pago para {courseName}.", 
@@ -1792,8 +1823,10 @@
     "The grading process is still running. Refresh the page to see updates.": "El proceso de calificaci\u00f3n todav\u00eda est\u00e1 corriendo. Recarga la p\u00e1gina para ver las actualizaciones.", 
     "The language that team members primarily use to communicate with each other.": "El idioma que usan los miembros del equipo para comunicarse.", 
     "The language used throughout this site. This site is currently available in a limited number of languages. Changing the value of this field will cause the page to refresh.": "El idioma utilizado en este sitio. Actualmente este sitio est\u00e1 disponible en un n\u00famero limitado de idiomas. Cambiar el valor de este campo causar\u00e1 que la p\u00e1gina se actualice.", 
+    "The minimum completion percentage must be a whole number between 0 and 100.": "\u6700\u4f4e\u5b8c\u6210\u7387\u5fc5\u987b\u4e3a0-100\u7684\u6574\u6570\u3002", 
     "The minimum grade for course credit is not set.": "La calificaci\u00f3n m\u00ednima para obtener cr\u00e9ditos por el curso no est\u00e1 definida.", 
     "The minimum score percentage must be a whole number between 0 and 100.": "La nota m\u00ednima para aprobar debe ser un n\u00famero entero entre 0 y 100.", 
+    "The more you tell us, the more quickly and helpfully we can respond!": "\u60a8\u63d0\u4f9b\u7684\u4fe1\u606f\u8d8a\u8be6\u7ec6\uff0c\u6211\u4eec\u8d8a\u80fd\u5feb\u901f\u5e76\u6709\u6548\u5730\u5e2e\u52a9\u5230\u60a8\uff01", 
     "The name of this signatory as it should appear on certificates.": "El nombre de este signatario como debe aparecer en los certificados.", 
     "The name that identifies you on {platform_name}. You cannot change your username.": "El nombre que lo identifica en {platform_name}. No puede cambiar el nombre de usuario.", 
     "The name that is used for ID verification and that appears on your certificates.": "El nombre que es usado para la verificaci\u00f3n de identidad y aparece en sus certificados.", 
@@ -1830,14 +1863,21 @@
     "There must be one cohort to which students can automatically be assigned.": "Tiene que haber una cohorte a la que los estudiantes pueden ser asignados autom\u00e1ticamente.", 
     "There was a problem creating the report. Select \"Create Executive Summary\" to try again.": "Hubo un problema creando el reporte. Selecciona \"Crear resumen ejecutivo\" para intentarlo nuevamente.", 
     "There was an error changing the user's role": "Ocurri\u00f3 un error al cambiar el papel del usuario.", 
+    "There was an error during the upload process.": "\u5728\u6587\u4ef6\u4e0a\u4f20\u8fc7\u7a0b\u4e2d\u53d1\u751f\u9519\u8bef\u3002", 
+    "There was an error in setting your goal, please reload the page and try again.": "\u8bbe\u5b9a\u8bfe\u7a0b\u76ee\u6807\u65f6\u51fa\u9519\uff0c\u8bf7\u91cd\u65b0\u52a0\u8f7d\u754c\u9762\u5e76\u91cd\u8bd5\u3002", 
     "There was an error obtaining email content history for this course.": "Ocurri\u00f3 un error obteniendo el historial de correos electr\u00f3nicos para este curso.", 
     "There was an error obtaining email task history for this course.": "Ocurri\u00f3 un error obteniendo el historial de tareas de correo para este curso.", 
     "There was an error retrieving preview results for this catalog. Please check that your query is correct and try again.": "Ocurri\u00f3 un error recuperando los resultados de vista previa para este cat\u00e1logo. Por favor aseg\u00farate de que tu consulta es correcta e intente nuevamente.", 
     "There was an error updating your goal.": "Hubo un error actualizando su objetivo.", 
     "There was an error when trying to add learners:": [
-      "Hubo un error al intentar agregar estudiantes:", 
+      "\u65e0\u6cd5\u6dfb\u52a0{numErrors}\u4f4d\u5b66\u5458\u81f3\u6b64\u7fa4\u7ec4\u4e2d\uff1a", 
       "{numErrors} estudiantes no pudieron ser agregados a este cohorte:"
     ], 
+    "There was an error while importing the new course to our database.": "\u5728\u5bfc\u5165\u65b0\u8bfe\u7a0b\u5230\u6570\u636e\u5e93\u65f6\u53d1\u751f\u9519\u8bef\u3002", 
+    "There was an error while importing the new library to our database.": "\u5728\u5bfc\u5165\u65b0\u77e5\u8bc6\u5e93\u5230\u6570\u636e\u5e93\u65f6\u53d1\u751f\u9519\u8bef\u3002", 
+    "There was an error while unpacking the file.": "\u89e3\u538b\u8fc7\u7a0b\u4e2d\u53d1\u751f\u9519\u8bef\u3002", 
+    "There was an error while verifying the file you submitted.": "\u5728\u9a8c\u8bc1\u60a8\u63d0\u4ea4\u7684\u6587\u4ef6\u65f6\u51fa\u73b0\u9519\u8bef\u3002", 
+    "There was an error with the upload": "\u6587\u4ef6\u4e0a\u4f20\u9519\u8bef", 
     "There was an error, try searching again.": "Hubo un error, intenta buscar de nuevo.", 
     "There was an error. Please reload the page and try again.": "Hubo un error inesperado. Por favor recargue la p\u00e1gina e intente de nuevo.", 
     "There were errors reindexing course.": "Hubo errores al reindexar el curso.", 
@@ -1856,7 +1896,7 @@
     "This action cannot be undone.": "Esta acci\u00f3n no se puede deshacer.", 
     "This action updates the {provider} information for your entire organization.": "Esta acci\u00f3n actualiza la informaci\u00f3n del proveedor {provider} para toda la organizaci\u00f3n.", 
     "This annotation has %(count)s flag.": [
-      "Esta publicaci\u00f3n tiene %(count)s marca.", 
+      "\u6b64\u6ce8\u91ca\u88ab\u6807\u8bb0%(count)s\u6b21\u3002", 
       "Esta publicaci\u00f3n tiene %(count)s marcas."
     ], 
     "This assessment could not be submitted.": "Esta revisi\u00f3n no pudo ser enviada.", 
@@ -1886,6 +1926,9 @@
     "This is the name of the group": "Este es el nombre del grupo", 
     "This learner is currently sharing a limited profile.": "Este usuario est\u00e1 compartiendo un perfil limitado.", 
     "This learner will be removed from the team, allowing another learner to take the available spot.": "Este estudiante ser\u00e1 removido del equipo, permitiendo que otro usuario tome el lugar disponible.", 
+    "This link will open in a modal window": "\u8be5\u94fe\u63a5\u5c06\u5728\u4e00\u4e2a\u6a21\u5f0f\u7a97\u53e3\u4e2d\u6253\u5f00", 
+    "This link will open in a new browser window/tab": "\u8be5\u94fe\u63a5\u5c06\u4f1a\u5728\u65b0\u7684\u6d4f\u89c8\u5668\u7a97\u53e3\uff0f\u6807\u7b7e\u6253\u5f00", 
+    "This may be happening because of an error with our server or your internet connection. Try refreshing the page or making sure you are online.": "\u6b64\u60c5\u51b5\u53ef\u80fd\u7531\u4e8e\u670d\u52a1\u5668\u9519\u8bef\u6216\u8005\u60a8\u7684\u7f51\u7edc\u8fde\u63a5\u9519\u8bef\u5bfc\u81f4\u3002\u5c1d\u8bd5\u5237\u65b0\u9875\u9762\u6216\u8005\u786e\u4fdd\u7f51\u7edc\u7545\u901a\u3002", 
     "This page contains information about orders that you have placed with {platform_name}.": "Esta p\u00e1gina contiene informaci\u00f3n de las \u00f3rdenes de compra que has realizado en {platform_name}.", 
     "This post could not be closed. Refresh the page and try again.": "No se pudo cerrar esta publicaci\u00f3n. Recarga la p\u00e1gina e intenta nuevamente.", 
     "This post could not be flagged for abuse. Refresh the page and try again.": "No se pudo marcar esta publicaci\u00f3n como abusiva. Recarga la p\u00e1gina e intenta nuevamente.", 
@@ -2037,6 +2080,7 @@
     "Upload Videos": "Cargar Videos", 
     "Upload a CSV file": "Cargar un archivo CSV", 
     "Upload a comma separated values (.csv) file that contains the usernames or email addresses of learners who have been given exceptions. Include the username or email address in the first comma separated field. You can include an optional note describing the reason for the exception in the second comma separated field.": "Cargue un archivo separado por comas (.csv) que contenga los nombres de usuario o correos electr\u00f3nicos de los estudiantes a los que se le han otorgado excepciones. Incluya el nombre de usuario o correo electr\u00f3nico en el primer campo. Puede incluir adem\u00e1s en un segundo campo, una nota opcional describiendo la raz\u00f3n para otorgar la excepci\u00f3n.", 
+    "Upload a new PDF to \u201c<%= name %>\u201d": "\u4e0a\u4f20\u4e00\u4e2a\u65b0\u7684PDF\u6587\u4ef6\u81f3\u201c<%= name %>\u201d", 
     "Upload an image": "Subir una imagen", 
     "Upload an image or capture one with your web or phone camera.": "Subir una imagen o captura con tu camara web o del tel\u00e9fono", 
     "Upload completed": "Carga terminada", 
@@ -2071,7 +2115,7 @@
     "Use your webcam to take a photo of your face. We will match this photo with the photo on your ID.": "Use su c\u00e1mara web para tomar una fotograf\u00eda de su cara. Usaremos esta foto para verificarla contra la fotograf\u00eda de su documento de identificaci\u00f3n.", 
     "Used": "Utilizado", 
     "Used in {count} location": [
-      "Usado en {count} ubicaci\u00f3n", 
+      "\u5728{count}\u4e2a\u4f4d\u7f6e\u4e2d\u4f7f\u7528", 
       "Usado en {count} ubicaciones"
     ], 
     "User": "Usuario", 
@@ -2102,6 +2146,7 @@
     "Video Capture Error": "Error en la captura de v\u00eddeo", 
     "Video ID": "ID del video", 
     "Video Source Language": "Idioma de la fuente del video", 
+    "Video Status": "\u89c6\u9891\u72b6\u6001", 
     "Video duration is {humanizeDuration}": "La duraci\u00f3n del v\u00eddeo es {humanizeDuration}", 
     "Video ended": "Fin del video", 
     "Video image upload completed": "Carga del v\u00eddeo completado", 
@@ -2123,7 +2168,7 @@
     "View discussion": "Ver discusi\u00f3n", 
     "View my exam": "Ver mi examen", 
     "Viewing %s course": [
-      "Mostrando %s curso", 
+      "\u6b63\u5728\u6d4f\u89c8%s\u95e8\u8bfe\u7a0b", 
       "Mostrando %s cursos"
     ], 
     "Visibility": "Visibilidad", 
@@ -2146,6 +2191,7 @@
     "We just need a little more information before you start learning with %(platformName)s.": "Necesitamos un poco mas de informaci\u00f3n antes de que comiences a aprender con %(platformName)s.", 
     "We use the highest levels of security available to encrypt your photo and send it to our authorization service for review. Your photo and information are not saved or visible anywhere on %(platformName)s after the verification process is complete.": "Usamos los m\u00e1s altos niveles de seguridad disponibles para encriptar su foto y enviarla a nuestro servicio de autorizaci\u00f3n para revisi\u00f3n. Su foto y su informaci\u00f3n no son guardadas ni quedan visibles en ninguna parte de %(platformName)s desp\u00faes de que el proceso de verificaci\u00f3n haya sido completado.", 
     "We're sorry to see you go! Your account will be deleted shortly.": "\u00a1Sentimos que te vayas! Tu cuenta ser\u00e1 eliminada en breve.", 
+    "We're sorry, there was an error": "\u5f88\u62b1\u6b49\uff0c\u51fa\u73b0\u9519\u8bef", 
     "We've encountered an error. Refresh your browser and then try again.": "Hemos detectado un error. Por favor recarga la p\u00e1gina en el navegador e intenta nuevamente.", 
     "We've sent a confirmation message to {new_email_address}. Click the link in the message to update your email address.": "Hemos enviado un mensaje de confirmaci\u00f3n a {new_email_address}. Haz clic en el v\u00ednculo del mensaje para actualizar tu correo electr\u00f3nico.", 
     "We've sent a message to {email}. Click the link in the message to reset your password. Didn't receive the message? Contact {anchorStart}technical support{anchorEnd}.": "Hemos mandado un mensaje a {email}. Haz clic en el enlace en el mensaje para restablecer tu contrase\u00f1a. \u00bfNo recibiste el mensaje? Cont\u00e1ctate con {anchorStart}apoyo t\u00e9cnico{anchorEnd}.", 
@@ -2155,6 +2201,7 @@
     "Weight of Total Grade": "Peso en la calificaci\u00f3n total", 
     "We\u2019re sorry to see you go!": "\u00a1Sentimos que te vayas!", 
     "What You Need for Verification": "Lo que necesita para la verificaci\u00f3n", 
+    "What can we help you with, {username}?": "\u4eb2\u7231\u7684{username}\uff0c\u6709\u4ec0\u4e48\u53ef\u4ee5\u5e2e\u52a9\u60a8\uff1f", 
     "What does %(platformName)s do with this photo?": "\u00bfQu\u00e9 hace %(platformName)s con esta imagen?", 
     "What does this mean?": "\u00bfQu\u00e9 significa esto?", 
     "What's Your Next Accomplishment?": "\u00bfQu\u00e9 ser\u00e1 tu pr\u00f3ximo logro?", 
@@ -2168,7 +2215,9 @@
     "Will Be Visible To:": "Ser\u00e1 visible para:", 
     "Words: {0}": "Palabras: {0}", 
     "Would you like to sign in using your %(providerName)s credentials?": "\u00bfDesea iniciar sesi\u00f3n usando %(providerName)s?", 
+    "Wrong length!": "\u9519\u8bef\u65f6\u957f\uff01", 
     "Year of Birth": "A\u00f1o de nacimiento", 
+    "Yes, Delete": "\u662f\u7684\uff0c\u5220\u9664", 
     "Yes, allow edits to the active Certificate": "Si, permitir modificaciones al certificado activo.", 
     "Yes, delete this {xblock_type}": "Si, eliminar este {xblock_type}", 
     "Yes, replace the edX transcript with the YouTube transcript": "Si, reemplazar la transcripci\u00f3n de edX con la de YouTube", 
@@ -2225,6 +2274,7 @@
     "You have successfully updated your goal.": "Ha actualizado exitosamente su objetivo.", 
     "You have unsaved changes are you sure you want to navigate away?": "Tienes cambios sin guardar, \u00bfest\u00e1s seguro que deseas avanzar en el navegador?", 
     "You have unsaved changes on individual editable fields. If you run an action, your unsaved changes will be lost.": "Tiene cambios sin guardar en campos editables individuales. Si ejecuta una acci\u00f3n, los cambios no guardados se perder\u00e1n.", 
+    "You have unsaved changes. Do you really want to leave this page?": "\u60a8\u5c1a\u6709\u672a\u4fdd\u5b58\u7684\u4fee\u6539\uff0c\u786e\u5b9a\u8981\u79bb\u6b64\u9875\u9762\u5417\uff1f", 
     "You haven't added any assets to this course yet.": "No ha a\u00f1adido a\u00fan ning\u00fan recurso a este curso.", 
     "You haven't added any content to this course yet.": "Todav\u00eda no ha a\u00f1adido ning\u00fan contenido a este curso.", 
     "You haven't added any textbooks to this course yet.": "No ha a\u00f1adido a\u00fan ning\u00fan libro de texto a este curso.", 
@@ -2235,6 +2285,7 @@
     "You must select a session by {expiration_date} to access the course.": "Debes seleccionar una edici\u00f3n antes de {expiration_date} para acceder al curso.", 
     "You must select a session to access the course.": "Debe seleccionar una sesi\u00f3n para acceder al curso.", 
     "You must sign out and sign back in before your language changes take effect.": "Debes cerrar sesi\u00f3n y volver a iniciar para que se aplique el cambio de idioma", 
+    "You must specify a name": "\u60a8\u5fc5\u987b\u6307\u5b9a\u4e00\u4e2a\u540d\u79f0", 
     "You must specify a name for the cohort": "Debes especificar un nombre para el cohorte", 
     "You must specify your birth year before you can share your full profile. To specify your birth year, go to the {account_settings_page_link}": "Debes especificar un a\u00f1o de nacimiento antes de poder compartir tu perfil completo. Para definir un a\u00f1o de nacimiento, visita {account_settings_page_link}", 
     "You need a computer that has a webcam. When you receive a browser prompt, make sure that you allow access to the camera.": "Necesita un equipo que tenga una webcam. Cuando reciba un mensaje desde su navegador web, aseg\u00farese de permitir el acceso a su webcam.", 
@@ -2274,6 +2325,8 @@
     "Your file could not be uploaded": "Su archivo no pudo ser cargado", 
     "Your file has been deleted.": "Su archivo ha sido borrado.", 
     "Your file {filename} is too large (max size: {maxSize}MB).": "Tu archivo {filename} es demasiado grande (tama\u00f1o m\u00e1ximo: {maxSize}MB).", 
+    "Your import has failed.": "\u5bfc\u5165\u5931\u8d25\u3002", 
+    "Your import is in progress; navigating away will abort it.": "\u4f60\u6b63\u5728\u5bfc\u5165\u4e2d\uff0c\u6d4f\u89c8\u4f1a\u4e2d\u65ad\u8fd9\u4e2a\u8fc7\u7a0b\u3002", 
     "Your library could not be exported to XML. There is not enough information to identify the failed component. Inspect your library to identify any problematic components and try again.": "Tu librer\u00eda no puede ser exportada a XML. No ha la suficiente informaci\u00f3n para identificar el componente que fall\u00f3. Revisar tu librer\u00eda para identificar alg\u00fan problema en componentes e intentar de nuevo.", 
     "Your message cannot be blank.": "Tu mensaje no puede estar vac\u00edo.", 
     "Your message must have a subject.": "Tu mensaje debe tener un asunto.", 
@@ -2300,7 +2353,7 @@
     "[no tags]": "[sin etiquetas]", 
     "a day": "un d\u00eda", 
     "about %d hour": [
-      "cerca de %d hora", 
+      "\u5927\u7ea6%d\u5c0f\u65f6", 
       "cerca de %d horas"
     ], 
     "about a minute": "cerca de un minuto", 
@@ -2312,6 +2365,7 @@
     "anonymous": "an\u00f3nimo", 
     "answer": "pregunta", 
     "answered question": "pregunta respondida", 
+    "asset_path is required": "asset_path\u5fc5\u586b", 
     "bytes": "bytes", 
     "certificate": "certificado", 
     "close": "cerrar", 
@@ -2321,6 +2375,7 @@
     "could not determine the course_id": "No se pudo determinar la ID del curso", 
     "course id": "Id de Curso", 
     "courses with active proctored exams": "cursos con ex\u00e1menes supervisados activos", 
+    "delete": "\u5220\u9664", 
     "delete chapter": "borrar cap\u00edtulo", 
     "delete group": "borrar grupo", 
     "details about the failure": "detalles sobre la falla", 
@@ -2390,7 +2445,7 @@
     "text_word_{uniqueId}": "text_word_{uniqueId}", 
     "text_word_{uniqueId} title_word_{uniqueId}": "text_word_{uniqueId} title_word_{uniqueId}", 
     "there is currently {numVotes} vote": [
-      "actualmente hay {numVotes} voto", 
+      "\u5f53\u524d{numVotes}\u7968", 
       "actualmente hay {numVotes} votos"
     ], 
     "timed": "cronometrado", 
@@ -2424,31 +2479,31 @@
     "{maxWidth}x{maxHeight} pixels": "{maxWidth}x{maxHeight} pixeles", 
     "{minutes} {unit}": "{minutes} {unit}", 
     "{numMoved} learner was moved from {prevCohort}": [
-      "{numMoved} estudiante fue movido de {prevCohort}", 
+      "\u5df2\u4ece{prevCohort}\u4e2d\u79fb\u9664{numMoved}\u4f4d\u5b66\u5458", 
       "{numMoved} estudiantes fueron movidos de {prevCohort}"
     ], 
     "{numPreassigned} learner was pre-assigned for this cohort. This learner will automatically be added to the cohort when they enroll in the course.": [
-      "{numPreassigned} estudiante fue asignado previamente a este cohorte. Este estudiante ser\u00e1 agregado autom\u00e1ticamente a este cohorte cuando se inscriban en el curso.", 
+      "{numPreassigned}\u4e2a\u5b66\u5458\u88ab\u9884\u5206\u914d\u81f3\u6b64\u7fa4\u7ec4\u4e2d\uff0c\u5728\u62a5\u540d\u8bfe\u7a0b\u65f6\u4ed6\u4eec\u5c06\u81ea\u52a8\u88ab\u6dfb\u52a0\u81f3\u6b64\u7fa4\u7ec4\u4e2d\u3002", 
       "{numPreassigned} estudiantes fueron asignados previamente a este cohorte. Estos estudiantes ser\u00e1n agregados autom\u00e1ticamente a este cohorte cuando se inscriban en el curso."
     ], 
     "{numPresent} learner was already in the cohort": [
-      "{numPresent} estudiante ya estaba en el cohorte.", 
+      "{numPresent}\u4e2a\u5b66\u5458\u5df2\u5728\u6b64\u7fa4\u7ec4\u4e2d", 
       "{numPresent} estudiantes ya estaban en el cohorte."
     ], 
     "{numResponses} other response": [
-      "{numResponses} otra respuesta", 
+      "{numResponses}\u4e2a\u5176\u4ed6\u56de\u590d", 
       "{numResponses} otras respuestas"
     ], 
     "{numResponses} response": [
-      "{numResponses} respuesta", 
+      "{numResponses}\u4e2a\u56de\u590d", 
       "{numResponses} respuestas"
     ], 
     "{numUsersAdded} learner has been added to this cohort. ": [
-      "{numUsersAdded} estudiante ha sido agregado a este cohorte.", 
+      "{numUsersAdded}\u4e2a\u5b66\u5458\u5df2\u88ab\u6dfb\u52a0\u81f3\u6b64\u7fa4\u7ec4\u3002", 
       "{numUsersAdded} estudiantes han sido agregados a este cohorte."
     ], 
     "{numVotes} Vote": [
-      "{numVotes} Voto", 
+      "{numVotes}\u7968", 
       "{numVotes} Votos"
     ], 
     "{num_of_hours} hour": "{num_of_hours} hora", 
@@ -2466,7 +2521,7 @@
     "{start_strong}{total}{end_strong} words submitted in total.": "{start_strong}{total}{end_strong} palabras enviadas en total.", 
     "{totalItems} total": "{totalItems} total", 
     "{total_results} result": [
-      "{total_results} resultado", 
+      "{total_results}\u4e2a\u7ed3\u679c", 
       "{total_results} resultados"
     ], 
     "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}": "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}", 
