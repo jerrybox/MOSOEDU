@@ -250,7 +250,7 @@ def _log_and_raise_inactive_user_auth_error(unauthenticated_user):
             unauthenticated_user.username)
         )
 
-    send_reactivation_email_for_user(unauthenticated_user)
+    # send_reactivation_email_for_user(unauthenticated_user)
     raise AuthFailedError(_generate_not_activated_message(unauthenticated_user))
 
 
