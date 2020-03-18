@@ -1,5 +1,5 @@
 <section id="login-anchor" class="form-type">
-    <div id="login-form" class="form-wrapper <% if ( mode !== 'login' ) { %>hidden<% } %>"></div>
+    <div id="login-form" class="form-wrapper <% if ( mode !== 'login' ) { %>hidden<% } %> form-wrapper_new"></div>
 </section>
 
 <section id="register-anchor" class="form-type">
