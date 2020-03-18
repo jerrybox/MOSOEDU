@@ -643,6 +643,12 @@ urlpatterns += [
         include('openedx.features.course_experience.urls'),
     ),
 
+    # mosoadmin
+    url(
+        r'^mosoadmin/',
+        include('openedx.features.mosoadmin.urls', namespace='mosoadmin'),
+    ),
+
     # Course bookmarks UI in LMS
     url(
         r'^courses/{}/bookmarks/'.format(

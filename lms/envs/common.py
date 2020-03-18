@@ -535,6 +535,7 @@ MAKO_TEMPLATE_DIRS_BASE = [
     OPENEDX_ROOT / 'core' / 'djangoapps' / 'dark_lang' / 'templates',
     OPENEDX_ROOT / 'core' / 'lib' / 'license' / 'templates',
     OPENEDX_ROOT / 'features' / 'course_experience' / 'templates',
+    OPENEDX_ROOT / 'features' / 'mosoadmin' / 'templates',
 ]
 
 
@@ -2308,6 +2309,7 @@ INSTALLED_APPS = [
     'openedx.features.learner_profile',
     'openedx.features.learner_analytics',
     'openedx.features.portfolio_project',
+    'openedx.features.mosoadmin',
 
     'experiments',
 
