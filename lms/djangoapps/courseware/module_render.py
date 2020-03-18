@@ -170,6 +170,18 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
         previous_of_active_section, next_of_active_section = None, None
         last_processed_section, last_processed_chapter = None, None
         found_active_section = False
+
+        # moso: display completion in accordion
+        course_block_completions = [key.__unicode__() for key in
+                                    BlockCompletion.get_course_completions(user, course.course_id).keys()]
+
+        def section_complete(sec):
+            for unit in sec.get_display_items():
+                for block in unit.get_display_items():
+                    if not (block.location.__unicode__() in course_block_completions):
+                        return False
+            return True
+
         for chapter in chapters:
             # Only show required content, if there is required content
             # chapter.hide_from_toc is read-only (bool)
@@ -200,6 +212,7 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
                     'due': section.due,
                     'active': is_section_active,
                     'graded': section.graded,
+                    'complete': section_complete(section)
                 }
                 _add_timed_exam_info(user, course, section, section_context)
 
@@ -221,7 +234,8 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
                 'display_id': display_id,
                 'url_name': chapter.url_name,
                 'sections': sections,
-                'active': chapter.url_name == active_chapter
+                'active': chapter.url_name == active_chapter,
+                'complete': all([s['complete'] for s in sections])
             })
         return {
             'chapters': toc_chapters,

@@ -20,6 +20,15 @@ else:
     <span class="group-heading ${active_class}" aria-label="${aria_label}">
         <span class="icon fa fa-caret-right" aria-hidden="true"></span>
         ${HTML(chapter['display_name'])}
+
+        % if chapter['complete']:
+          <span
+               class="fa fa-check-circle check-circle ${"is-hidden" if not chapter['complete'] else ""}"
+               style="color:green;float:right;"
+               aria-hidden="true"
+               ></span>
+        % endif
+
     </span>
 </a>
 <div class="chapter-content-container" id="${chapter['display_id']}-child" tabindex="-1" role="region" aria-label="${chapter['display_name']} submenu">
@@ -30,7 +39,17 @@ else:
                 <p class="accordion-display-name">${HTML(section['display_name'])} ${Text(_('{span_start}current section{span_end}')).format(
                         span_start=HTML('<span class="sr">'),
                         span_end=HTML('</span>'),
-                    ) if 'active' in section and section['active'] else ''}</p>
+                    ) if 'active' in section and section['active'] else ''}
+
+                % if section['complete']:
+                  <span
+                       class="fa fa-check-circle check-circle ${"is-hidden" if not section['complete'] else ""}"
+                       style="color:green;float:right;"
+                       aria-hidden="true"
+                       ></span>
+                % endif
+
+                </p>
 
                 ## There are behavior differences between
                 ## rendering of sections which have proctoring/timed examinations
