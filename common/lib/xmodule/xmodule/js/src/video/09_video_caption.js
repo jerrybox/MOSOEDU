@@ -1291,7 +1291,7 @@
 
                 this.setSubtitlesHeight();
                 if (updateCookie) {
-                    $.cookie('hideCaptions', hideCaptions, {
+                    $.cookie('hide_captions', hideCaptions, {
                         expires: 3650,
                         path: '/'
                     });

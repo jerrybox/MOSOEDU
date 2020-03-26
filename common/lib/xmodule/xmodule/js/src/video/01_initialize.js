@@ -246,18 +246,18 @@ function(VideoPlayer, i18n, moment, _) {
     //     represents the user's choice of having the subtitles shown or
     //     hidden. This choice is stored in cookies.
     function _configureCaptions(state) {
-        if (state.config.showCaptions) {
+        if ($.cookie('hide_captions')){
             state.hideCaptions = ($.cookie('hide_captions') === 'true');
         } else {
-            state.hideCaptions = true;
-
+            state.hideCaptions = !state.config.showCaptions;
+        };
+        if (state.hideCaptions == true){
             $.cookie('hide_captions', state.hideCaptions, {
                 expires: 3650,
                 path: '/'
             });
-
             state.el.addClass('closed');
-        }
+        };
     }
 
     // function _parseYouTubeIDs(state)
