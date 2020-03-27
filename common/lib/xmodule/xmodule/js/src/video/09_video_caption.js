@@ -41,7 +41,7 @@
             this.state = state;
             this.state.videoCaption = this;
             this.renderElements();
-            this.handleCaptioningCookie();
+            //this.handleCaptioningCookie();
             this.listenForDragDrop();
 
             return $.Deferred().resolve().promise();
@@ -572,7 +572,7 @@
                             );
                             self.bindHandlers();
                         }
-
+                        self.handleCaptioningCookie();
                         self.loaded = true;
                     },
                     error: function(jqXHR, textStatus, errorThrown) {
@@ -627,7 +627,8 @@
 
                         if (_.keys(newLanguages).length) {
                             self.renderLanguageMenu(newLanguages);
-                        }
+                        };
+                        self.handleCaptioningCookie();
                     },
                     error: function() {
                         self.hideCaptions(true, false);
