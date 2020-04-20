@@ -471,6 +471,14 @@ FIELD_OVERRIDE_PROVIDERS = tuple(ENV_TOKENS.get('FIELD_OVERRIDE_PROVIDERS', []))
 with open(CONFIG_ROOT / CONFIG_PREFIX + "auth.json") as auth_file:
     AUTH_TOKENS = json.load(auth_file)
 
+############### Aliyun oss #############
+OSS_ACCESS_KEY_ID = AUTH_TOKENS.get('OSS_ACCESS_KEY_ID', '<AccessKeyId>')
+OSS_ACCESS_KEY_SECRET = AUTH_TOKENS.get('OSS_ACCESS_KEY_SECRET', '<AccessKeySecret>')
+OSS_BUCKET_NAME = ENV_TOKENS.get('OSS_BUCKET_NAME', 'django-files-storage')
+OSS_ENDPOINT = ENV_TOKENS.get('OSS_ENDPOINT', '<endpoint>')
+OSS_PRIVATE_BUCKET_NAME = ENV_TOKENS.get('OSS_PRIVATE_BUCKET_NAME', '<private-bucket>')
+OSS_EXPIRE_TIME = ENV_TOKENS.get('OSS_EXPIRE_TIME', 60*60*24)
+
 ############### XBlock filesystem field config ##########
 if 'DJFS' in AUTH_TOKENS and AUTH_TOKENS['DJFS'] is not None:
     DJFS = AUTH_TOKENS['DJFS']

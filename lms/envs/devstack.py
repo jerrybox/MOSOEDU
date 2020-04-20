@@ -59,7 +59,7 @@ MIDDLEWARE_CLASSES += [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
-INTERNAL_IPS = ('127.0.0.1',)
+INTERNAL_IPS = ('127.0.0.1','0.0.0.0')
 
 DEBUG_TOOLBAR_PANELS = (
     'debug_toolbar.panels.versions.VersionsPanel',
@@ -68,9 +68,13 @@ DEBUG_TOOLBAR_PANELS = (
     'debug_toolbar.panels.headers.HeadersPanel',
     'debug_toolbar.panels.request.RequestPanel',
     'debug_toolbar.panels.sql.SQLPanel',
+    'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+    'debug_toolbar.panels.templates.TemplatesPanel',
+    'debug_toolbar.panels.cache.CachePanel',
     'debug_toolbar.panels.signals.SignalsPanel',
     'debug_toolbar.panels.logging.LoggingPanel',
     'debug_toolbar_mongo.panel.MongoDebugPanel',
+    'debug_toolbar.panels.redirects.RedirectsPanel',
     # ProfilingPanel has been intentionally removed for default devstack.py
     # runtimes for performance reasons. If you wish to re-enable it in your
     # local development environment, please create a new settings file
@@ -79,6 +83,7 @@ DEBUG_TOOLBAR_PANELS = (
 
 DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': 'lms.envs.devstack.should_show_debug_toolbar',
+    "JQUERY_URL": "https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js",
 }
 
 
