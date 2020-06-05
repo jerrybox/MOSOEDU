@@ -316,6 +316,8 @@ OSS_ENDPOINT = ENV_TOKENS.get('OSS_ENDPOINT', '<endpoint>')
 OSS_PRIVATE_BUCKET_NAME = ENV_TOKENS.get('OSS_PRIVATE_BUCKET_NAME', '<private-bucket>')
 OSS_EXPIRE_TIME = ENV_TOKENS.get('OSS_EXPIRE_TIME', 60*10)
 
+ORA2_FILEUPLOAD_BACKEND = ENV_TOKENS.get('ORA2_FILEUPLOAD_BACKEND', 'django')
+
 ############### XBlock filesystem field config ##########
 if 'DJFS' in AUTH_TOKENS and AUTH_TOKENS['DJFS'] is not None:
     DJFS = AUTH_TOKENS['DJFS']

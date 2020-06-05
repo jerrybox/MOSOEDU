@@ -48,3 +48,10 @@
     pip install oss2==2.6.1 -i https://pypi.doubanio.com/simple/
     pip install git+https://github.com/jerrybox/django-oss-storage.git@mosoH2
     ```
+
+14. 使用自定义的ora2包实现开放式问答题上传文件到阿里云
+    ```sh
+    which
+    pip uninstall ora2
+    pip install --no-deps git+https://github.com/jerrybox/edx-ora2.git@mosoH2 -i https://pypi.doubanio.com/simple/
+    ```
