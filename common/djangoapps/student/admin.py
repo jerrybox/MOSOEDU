@@ -151,7 +151,10 @@ class CourseEnrollmentForm(forms.ModelForm):
 
         if self.data.get('course'):
             try:
+                swap = self.data._mutable
+                self.data._mutable = True
                 self.data['course'] = CourseKey.from_string(self.data['course'])
+                self.data._mutable = swap
             except InvalidKeyError:
                 raise forms.ValidationError("Cannot make a valid CourseKey from id {}!".format(self.data['course']))
 
