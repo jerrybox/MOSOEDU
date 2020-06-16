@@ -55,3 +55,15 @@
     pip uninstall ora2
     pip install --no-deps git+https://github.com/jerrybox/edx-ora2.git@mosoH2 -i https://pypi.doubanio.com/simple/
     ```
+
+15. 为了实现仅仅让ExamGroup组的学员能够看到显示考试的内容做了如下修改
+```python
+# vim /edx/app/edxapp/edx-platform/lms/djangoapps/courseware/module_render.py +196
+# dir(section) 有几个重要属性 is_timed_exam，is_time_limited，group_access
+
+course_groups = user.course_groups.filter(course_id=course.id)
+timed_exam_visible = "ExamGroup" in (cg.name for cg in course_groups) or has_access(user, "staff", course)  or has_access(user, "instructor", course)
+
+if section.is_timed_exam and not timed_exam_visible:
+    continue
+```

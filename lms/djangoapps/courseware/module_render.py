@@ -182,6 +182,12 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
                         return False
             return True
 
+        # only show timed exam to content group "ExamGroup"
+        course_groups = user.course_groups.filter(course_id=course.id)
+        timed_exam_visible = "ExamGroup" in (cg.name for cg in course_groups) \
+                             or has_access(user, "staff", course) \
+                             or has_access(user, "instructor", course)
+
         for chapter in chapters:
             # Only show required content, if there is required content
             # chapter.hide_from_toc is read-only (bool)
@@ -199,6 +205,10 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
             for section in chapter.get_display_items():
                 # skip the section if it is hidden from the user
                 if section.hide_from_toc:
+                    continue
+
+                # only show timed exam to content group "ExamGroup"
+                if section.is_timed_exam and not timed_exam_visible:
                     continue
 
                 is_section_active = (chapter.url_name == active_chapter and section.url_name == active_section)
