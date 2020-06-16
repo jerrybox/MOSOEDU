@@ -8041,10 +8041,14 @@ msgid "timed"
 msgstr "定时"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
+msgid "You are taking \"{exam_link}\" as a {exam_type} exam. The timer on the right shows the time remaining in the exam."
+msgstr "您将“{exam_link}”设为{exam_type}。右边的计时器显示考试剩下的时间。"
+
+#: lms/templates/courseware/proctored-exam-status.underscore
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
-msgstr "要获得某个问题的学分，在你选择“结束我的考试”之前，你必须单击它上面的\"检查\"或\"最终检查\"。"
+msgstr "在你选择“结束我的考试”之前，确保已经点击了页面上的所有题后面的\"提交\"按钮。"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "End My Exam"
