@@ -309,7 +309,7 @@ class SequenceModule(SequenceFields, ProctoringFields, XModule):
         self._update_position(context, len(display_items))
         prereq_met = True
         prereq_meta_info = {}
-
+        _ = self.runtime.service(self, "i18n").translator.ugettext_lazy
         if self._required_prereq():
             if self.runtime.user_is_staff:
                 banner_text = _('This subsection is unlocked for learners when they meet the prerequisite requirements.')
