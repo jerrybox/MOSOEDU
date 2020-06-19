@@ -176,7 +176,11 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
                                     BlockCompletion.get_course_completions(user, course.course_id).keys()]
 
         def section_complete(sec):
-            for unit in sec.get_display_items():
+            units = sec.get_display_items()
+            if not units:
+                return False
+
+            for unit in units:
                 for block in unit.get_display_items():
                     if not (block.location.__unicode__() in course_block_completions):
                         return False
@@ -245,7 +249,7 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
                 'url_name': chapter.url_name,
                 'sections': sections,
                 'active': chapter.url_name == active_chapter,
-                'complete': all([s['complete'] for s in sections])
+                'complete': all([s['complete'] for s in sections]) if sections else False
             })
         return {
             'chapters': toc_chapters,
