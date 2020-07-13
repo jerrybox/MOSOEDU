@@ -95,7 +95,7 @@
                 };
             } else {
                 fullnameFieldView = {
-                    view: new AccountSettingsFieldViews.TextFieldView(fullNameFieldData)
+                    view: new AccountSettingsFieldViews.ReadonlyFieldView(fullNameFieldData)
                 };
             }
 
