@@ -12,6 +12,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.views import redirect_to_login
 from django.urls import reverse
 from django.http import Http404
+from django.shortcuts import redirect
 from django.template.context_processors import csrf
 from django.utils.decorators import method_decorator
 from django.utils.functional import cached_property
@@ -36,6 +37,7 @@ from openedx.core.djangoapps.waffle_utils import WaffleSwitchNamespace, WaffleFl
 from openedx.core.djangolib.markup import HTML, Text
 from openedx.features.course_experience import COURSE_OUTLINE_PAGE_FLAG, default_course_url_name
 from openedx.features.course_experience.views.course_sock import CourseSockFragmentView
+from openedx.features.course_experience.utils import get_course_outline_block_tree
 from openedx.features.enterprise_support.api import data_sharing_consent_required
 from shoppingcart.models import CourseRegistrationCode
 from student.views import is_course_blocked
@@ -122,6 +124,10 @@ class CoursewareIndex(View):
                 self._setup_masquerade_for_effective_user()
                 return self.render(request)
         except Exception as exception:  # pylint: disable=broad-except
+            if isinstance(exception, Http404):
+                course_outline_root_block = get_course_outline_block_tree(request, course_id)
+                if course_outline_root_block:
+                    return redirect(course_outline_root_block['lms_web_url'])
             return CourseTabView.handle_exceptions(request, self.course, exception)
 
     def _setup_masquerade_for_effective_user(self):
