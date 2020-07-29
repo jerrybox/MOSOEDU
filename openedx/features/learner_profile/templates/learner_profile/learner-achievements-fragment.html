@@ -7,6 +7,7 @@
 <%!
 from django.utils.translation import ugettext as _
 from openedx.core.djangolib.markup import HTML, Text
+from lms.djangoapps.certificates import api as certs_api
 %>
 
 <div class="learner-achievements">
@@ -17,7 +18,7 @@ from openedx.core.djangolib.markup import HTML, Text
                 <%
                 certificate_url = certificate['download_url']
                 course = certificate['course']
-
+                show_cert = certs_api.cert_generation_enabled(certificate['course_key'])
                 completion_date_message_html = Text(_('Completed {completion_date_html}')).format(
                     completion_date_html=HTML(
                         '<span'
@@ -34,7 +35,7 @@ from openedx.core.djangolib.markup import HTML, Text
                     ),
                 )
                 %>
-                % if certificate_url:
+                % if show_cert and certificate_url:
                     <a href="${certificate_url}" target="_blank">
                         <div class="card certificate-card mode-${certificate['type']}">
                             <div class="card-logo">
@@ -51,7 +52,7 @@ from openedx.core.djangolib.markup import HTML, Text
                             </div>
                         </div>
                     </a>
-                % else:
+                % elif show_cert:
                     <div class="card certificate-card mode-${certificate['type']}">
                         <div class="card-logo">
                             <h4 class="sr-only">
