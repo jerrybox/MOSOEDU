@@ -186,9 +186,9 @@ def toc_for_course(user, request, course, active_chapter, active_section, field_
                         return False
             return True
 
-        # only show timed exam to content group "ExamGroup"
+        # only show timed exam to content group "ExamGroup*"
         course_groups = user.course_groups.filter(course_id=course.id)
-        timed_exam_visible = "ExamGroup" in (cg.name for cg in course_groups) \
+        timed_exam_visible = [cg.name for cg in course_groups if cg.name.startswith("ExamGroup")] \
                              or has_access(user, "staff", course) \
                              or has_access(user, "instructor", course)
 
