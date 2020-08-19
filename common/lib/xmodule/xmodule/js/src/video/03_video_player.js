@@ -778,6 +778,11 @@ function(HTML5Video, HTML5HLSVideo, Resizer, HLS, _, Time) {
             savedVideoPosition < duration - 1
         ) {
             time = savedVideoPosition;
+        } else if (
+            (endTime <= savedVideoPosition || endTime === null) &&
+            savedVideoPosition >= duration
+        ) {
+            time = savedVideoPosition;
         }
 
         return time;
